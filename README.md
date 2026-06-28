@@ -1,36 +1,78 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# SmartCorp
+
+&lt;p align="center"&gt;
+  &lt;img src="public/smart.png" width="80" alt="SmartCorp Logo"&gt;
+&lt;/p&gt;
+
+&lt;p align="center"&gt;
+  &lt;strong&gt;Leading Zambian ICT Solutions Provider&lt;/strong&gt;
+&lt;/p&gt;
+
+&lt;p align="center"&gt;
+  &lt;a href="https://smartcorp.vercel.app"&gt;Live Demo&lt;/a&gt; •
+  &lt;a href="#services"&gt;Services&lt;/a&gt; •
+  &lt;a href="#team"&gt;Team&lt;/a&gt; •
+  &lt;a href="#contact"&gt;Contact&lt;/a&gt;
+&lt;/p&gt;
+
+---
+
+## About
+
+SmartCorp is a Zambian ICT company delivering enterprise-grade technology solutions. We specialize in cloud infrastructure, cybersecurity, software development, and AI automation for businesses across Africa.
+
+**Founded:** 2022  
+**Headquarters:** Ndola, Zambia  
+**Team:** 4 Expert Engineers  
+
+---
+
+## Services
+
+| Service | Description |
+|---------|-------------|
+| ☁️ Cloud Computing | AWS, Azure & Google Cloud migration and management |
+| 🛡️ Cybersecurity | Threat detection, compliance, and risk management |
+| 💻 Software Development | Custom web, mobile, and enterprise applications |
+| 📡 Network Solutions | Enterprise network design and implementation |
+| 🤖 AI & Automation | Machine learning and intelligent automation |
+| 📊 Data Analytics | Business intelligence and real-time dashboards |
+
+---
+
+## Tech Stack
+
+- **Framework:** Next.js 16 (App Router)
+- **Styling:** Tailwind CSS
+- **Animations:** Framer Motion
+- **Email Service:** EmailJS
+- **Deployment:** Vercel
+
+---
+
+## Team
+
+| Name | Role | Expertise |
+|------|------|-----------|
+| Kafiswe Chimputu | Lead Full-Stack Developer | React, Node.js, AWS |
+| Adon Chinyamuka | AI & ML Engineer | Python, TensorFlow, PyTorch |
+| Israel Bopili | Cybersecurity Architect | PenTesting, SIEM, Zero Trust |
+| Lloyd Bullya | Cloud Infrastructure Lead | Kubernetes, Terraform, Azure |
+
+---
 
 ## Getting Started
 
-First, run the development server:
-
 ```bash
+# Clone repository
+git clone https://github.com/chimputu/smartcorp.git
+
+# Install dependencies
+cd smartcorp
+npm install
+
+# Run development server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+# Build for production
+npm run build
