@@ -1,4 +1,4 @@
-// app/layout.tsx
+import { Analytics } from "@vercel/analytics/next";
 import type { Metadata } from "next";
 import "./globals.css";
 import Navbar from "./components/Navbar";
@@ -7,11 +7,6 @@ import Footer from "./components/Footer";
 export const metadata: Metadata = {
   title: "SmartCorp",
   description: "ICT Zambian company tasked to provide ICT services",
-  icons: {
-    icon: "/smart.png",      // Browser tab icon (32x32 recommended)
-    shortcut: "/smart.png",
-    apple: "/smart-apple.png", // Optional: 180x180 for iOS
-  },
 };
 
 export default function RootLayout({
@@ -25,6 +20,7 @@ export default function RootLayout({
         <Navbar />
         {children}
         <Footer />
+        <Analytics />
       </body>
     </html>
   );
